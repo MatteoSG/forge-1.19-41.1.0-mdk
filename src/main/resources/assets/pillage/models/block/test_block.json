@@ -1,5 +1,5 @@
 {
-  "parent": "block/cubel_all",
+  "parent": "block/cube_all",
   "textures": {
     "all" : "pillage:block/test_block"
   }
