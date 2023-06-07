@@ -1,4 +1,4 @@
-package net.sateenah.pillage.items;
+package net.sateenah.pillage.item;
 
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;

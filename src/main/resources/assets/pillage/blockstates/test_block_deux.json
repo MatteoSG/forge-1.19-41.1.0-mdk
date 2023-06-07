@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "" : { "model":  "pillage:block/test_block_deux"}
+  }
+}

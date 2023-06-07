@@ -1,0 +1,6 @@
+{
+  "parent": "block/cubel_all",
+  "textures": {
+    "all" : "pillage:block/test_block_deux"
+  }
+}

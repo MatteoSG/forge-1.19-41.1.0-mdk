@@ -1,5 +1,15 @@
 {
+
+
   "item.pillage.test" : "Test",
+
+
+
+
+  "block.pillage.test_block": "Test Block",
+  "block.pillage.test_block_deux": "Test Block Deux",
+
+
 
   "itemGroup.pillage": "Pillage"
 }
