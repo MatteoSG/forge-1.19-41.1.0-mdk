@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pillage:test_block"
+    }
+  ],
+  "result": {
+    "item": "pillage:test",
+    "count": 9
+  }
+}
