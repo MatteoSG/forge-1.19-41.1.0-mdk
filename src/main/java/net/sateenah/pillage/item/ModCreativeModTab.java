@@ -7,7 +7,7 @@ public class ModCreativeModTab {
     public static final CreativeModeTab PILLAGE_TAB = new CreativeModeTab("pillage") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.Test.get());
+            return new ItemStack(ModItems.TEST.get());
         }
     };
 }
