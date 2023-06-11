@@ -6,7 +6,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sateenah.pillage.Pillage;
-import net.sateenah.pillage.item.custom.Test_advanced_item;
+import net.sateenah.pillage.item.custom.TestAdvancedItem;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -22,7 +22,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.PILLAGE_TAB))) ;
 
     public static final RegistryObject<Item> TEST_ADVANCED = ITEMS.register("test_advanced",
-            () -> new Test_advanced_item(new Item.Properties().tab(ModCreativeModTab.PILLAGE_TAB).stacksTo(1))) ;
+            () -> new TestAdvancedItem(new Item.Properties().tab(ModCreativeModTab.PILLAGE_TAB).stacksTo(1))) ;
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus) ;

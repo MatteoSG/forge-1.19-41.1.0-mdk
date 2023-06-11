@@ -9,8 +9,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
-public class Test_advanced_item extends Item {
-    public Test_advanced_item(Properties properties) {
+public class TestAdvancedItem extends Item {
+    public TestAdvancedItem(Properties properties) {
         super(properties);
     }
 
