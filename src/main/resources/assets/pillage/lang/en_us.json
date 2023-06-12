@@ -12,6 +12,8 @@
   "block.pillage.test_block_advanced": "Test Block Advanced (Darkness)",
   "block.pillage.test_lamp": "Test Lamp",
 
+  "key.category.pillage.tutorial" : "Pillage Mod",
+  "key.pillage.double_jump" : "Double jump",
 
   "itemGroup.pillage": "Pillage"
 }
