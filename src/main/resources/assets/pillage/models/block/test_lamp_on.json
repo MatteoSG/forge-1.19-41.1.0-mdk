@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all" : "pillage:block/test_lamp_on"
+  }
+}

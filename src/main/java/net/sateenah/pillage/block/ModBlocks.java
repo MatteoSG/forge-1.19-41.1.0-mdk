@@ -14,6 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.sateenah.pillage.Pillage;
 import net.sateenah.pillage.block.custom.AdvancedBlock;
+import net.sateenah.pillage.block.custom.TestLampBlock;
 import net.sateenah.pillage.item.ModCreativeModTab;
 import net.sateenah.pillage.item.ModItems;
 
@@ -34,12 +35,16 @@ public class ModBlocks {
 
      */
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.CACTUS)
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.PILLAGE_TAB) ;
     public static final RegistryObject<Block> TEST_BLOCK_ADVANCED = registerBlock("test_block_advanced"  ,
-            () -> new AdvancedBlock(BlockBehaviour.Properties.of(Material.CACTUS)
+            () -> new AdvancedBlock(BlockBehaviour.Properties.of(Material.WOOD)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.PILLAGE_TAB) ;
 
+    public static final RegistryObject<Block> TEST_LAMP = registerBlock("test_lamp"  ,
+            () -> new TestLampBlock(BlockBehaviour.Properties.of(Material.WOOL)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .lightLevel(state -> state.getValue(TestLampBlock.LIT) ? 15 : 0)), ModCreativeModTab.PILLAGE_TAB) ;
     public static final RegistryObject<Block> TEST_BLOCK2 = registerBlock("test_block_deux",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),

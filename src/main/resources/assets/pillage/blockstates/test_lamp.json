@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true" : { "model":  "pillage:block/test_lamp_on"},
+    "lit=false" : { "model":  "pillage:block/test_lamp_off"}
+  }
+}
